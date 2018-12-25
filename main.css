@@ -279,3 +279,72 @@ footer ul, .copy {
     line-height: 80px;
     display: inline-block;
 }
+
+/*----responsive----*/
+@media only screen and (max-width: 1200px){
+    header {
+        height: 100vh;
+        min-height: 1000px;
+    }
+    header h1{
+        margin: 50px 0 40px 0;
+    }
+    .btnWhite {
+        margin-bottom: 80px;
+    }
+    .callToAction {
+        width: 90%;
+    }
+    .illus {
+        display: none;
+    }
+
+    .mobillus {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    header h1{
+        width: 100%;
+    }
+    header {
+        background-position: left center;
+    }
+    .illus{
+        display: none;
+    }
+    footer ul{
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .copy {
+        text-align: center;
+        display: block;
+    }
+    footer ul li{
+        margin: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .newpodcasts ul {
+        flex-direction: column;
+    }
+    .desktop {
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    nav ul li {
+        margin: 0;
+    }
+    footer ul li {
+        display: none;
+    }
+    h1 {
+        font-size: 36px;
+    }
+}
