@@ -4,3 +4,5 @@ The idea is to provide a platform to independent artists like musicians and indu
 
 ## Status
 Work in Progress.
+
+Update : Front-End Ready !
